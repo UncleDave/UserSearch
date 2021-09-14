@@ -1,0 +1,11 @@
+.header {
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+.main {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1200px;
+  align-self: center;
+}
