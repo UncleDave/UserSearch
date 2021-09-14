@@ -12,7 +12,7 @@ const SearchBar: FC<Props> = ({ onSearch }) => {
   const onSubmit = useCallback((event: FormEvent, searchTerm: string) => {
     event.preventDefault();
 
-    if (searchTerm.length >= 3)
+    if (searchTerm.length > 3)
       onSearch(searchTerm);
   }, [onSearch]);
 
